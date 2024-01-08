@@ -32,7 +32,7 @@ label {
     color: #4D4D4D;
 }
 
-#card-list div {
+.moviecards {
     width: 300px;
     margin: 20px;
     padding: 20px;
