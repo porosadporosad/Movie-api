@@ -46,7 +46,7 @@ searchBtn.addEventListener('click', function (e) {
         if (movie.title.toLowerCase().includes(searchTerm)) {
           const movieElement = document.createElement('div');
           const movieId = movie.id;
-          movieElement.id = movie.id;
+          movieElement.id = movieId;
           movieElement.innerHTML = `
                         <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="movieImage" alt="...">
                         <h3>${movie.title}</h3>
