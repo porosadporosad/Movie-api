@@ -34,6 +34,7 @@ label {
 
 .moviecards {
     width: 300px;
+    height: 800px;
     margin: 20px;
     padding: 20px;
     justify-self: center;
@@ -50,5 +51,6 @@ label {
 #card-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
 }
